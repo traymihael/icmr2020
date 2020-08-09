@@ -93,33 +93,42 @@ a:hover { text-decoration: underline; }
 </div><!-- /.slide -->
 
 <div id="contents">
-	<div class="topNavi">
-		<div class="topNaviColumn">
-			<a class="topNaviCon" href="map.html#1" style="text-decoration:none;">
-				<div class="topNaviPhoto"><img src="images/photo_sprint.jpg" alt="" /></div>
-				<h2>モデルイベント・開会式</h2>
-				<p>3月12日（金）開催
-					<br>場所
-				</p>
-			</a>
-		</div><!-- /.topNaviColumn -->
-		<div class="topNaviColumn">
-			<a class="topNaviCon" href="map.html#2" style="text-decoration:none;">
-				<div class="topNaviPhoto"><img src="images/photo_long.jpg" alt="" /></div>
-				<h2>ミドル・ディスタンス競技部門</h2>
-				<p>11月12日（日）開催
-					<br>場所
-				</p>
-			</a>
-		</div><!-- /.topNaviColumn -->
-		<div class="topNaviColumn">
-			<a class="topNaviCon" href="heisetsu/index.html" style="text-decoration:none;">
-				<div class="topNaviPhoto"><img src="images/photo_heisetsu.jpg" alt="" /></div>
-				<h2>併設大会</h2>
-				<p>11月11日（土）・12日（日）<br>同時開催</p>
-			</a>
-		</div><!-- /.topNaviColumn -->
-	</div><!-- /.topNavi -->
+<!--	<div class="topNavi">-->
+<!--		<div class="topNaviColumn">-->
+<!--			<a class="topNaviCon" href="map.html#1" style="text-decoration:none;">-->
+<!--				<div class="topNaviPhoto"><img src="images/photo_sprint.jpg" alt="" /></div>-->
+<!--				<h2>モデルイベント・開会式</h2>-->
+<!--				<p>3月12日（金）開催-->
+<!--					<br>場所-->
+<!--				</p>-->
+<!--			</a>-->
+<!--		</div>&lt;!&ndash; /.topNaviColumn &ndash;&gt;-->
+<!--		<div class="topNaviColumn">-->
+<!--			<a class="topNaviCon" href="map.html#2" style="text-decoration:none;">-->
+<!--				<div class="topNaviPhoto"><img src="images/photo_long.jpg" alt="" /></div>-->
+<!--				<h2>ミドル・ディスタンス競技部門</h2>-->
+<!--				<p>3月13日（土）開催-->
+<!--					<br>場所-->
+<!--				</p>-->
+<!--			</a>-->
+<!--		</div>&lt;!&ndash; /.topNaviColumn &ndash;&gt;-->
+<!--		<div class="topNaviColumn">-->
+<!--			<a class="topNaviCon" href="map.html#2" style="text-decoration:none;">-->
+<!--				<div class="topNaviPhoto"><img src="images/photo_long.jpg" alt="" /></div>-->
+<!--				<h2>リレー競技部門</h2>-->
+<!--				<p>3月14日（日）開催-->
+<!--					<br>場所-->
+<!--				</p>-->
+<!--			</a>-->
+<!--		</div>&lt;!&ndash; /.topNaviColumn &ndash;&gt;-->
+<!--		<div class="topNaviColumn">-->
+<!--			<a class="topNaviCon" href="heisetsu/index.html" style="text-decoration:none;">-->
+<!--				<div class="topNaviPhoto"><img src="images/photo_heisetsu.jpg" alt="" /></div>-->
+<!--				<h2>併設大会</h2>-->
+<!--				<p>3月13日（土）・14日（日）<br>同時開催</p>-->
+<!--			</a>-->
+<!--		</div>&lt;!&ndash; /.topNaviColumn &ndash;&gt;-->
+<!--	</div>&lt;!&ndash; /.topNavi &ndash;&gt;-->
 
 	<div id="main">
 	<div id="countOutput">
@@ -129,7 +138,7 @@ a:hover { text-decoration: underline; }
 			//現在の日時取得
 			var nowDate = new Date();
 			//カウントダウンしたい日を設定
-			var anyDate = new Date("2017/11/11 0:00:00");
+			var anyDate = new Date("2021/3/12 0:00:00");
 			//日数を計算
 			var daysBetween = Math.ceil((anyDate - nowDate)/(1000*60*60*24));
 			var ms = (anyDate - nowDate);
@@ -146,47 +155,36 @@ a:hover { text-decoration: underline; }
 		</div>
 		<h2>重要なお知らせ</h2>
 		<dl class="info">
-		   <dt><span>2018-02-12</span></dt>
+		   <dt><span>2020-8-xx</span></dt>
 		   <dd>
-			　<a href="bulletin.html#12">インカレスプリント・ロング2017 報告書を公開しました。</a>
-		   </dd>
-		   <dt><span>2017-12-09</span></dt>
-		   <dd>
-			　<a href="media.html">インカレアンケート・写真を公開しました。</a>
-		   </dd>
-		   <dt><span>2017-11-19</span></dt>
-		   <dd>
-			　<a href="bulletin.html#11">インカレスプリント・ロング2017 落とし物一覧を公開しました。</a>
-		   </dd>
-		   <dt><span>2017-11-13</span></dt>
-		   <dd>
-			　<a href="bulletin.html#10">成績データを公開しました。</a>
+			　<a href="bulletin.html#10">要綱1を公開しました。</a>
 		   </dd>
 		</dl>
 		<h2>大会概要</h2>
 		<p>　大会の詳細は<a href="bulletin.html">最新の要項</a>をご覧ください。</p>
 		<table>
 			<tbody>
-			<tr><th>開催日</th><td><em>2017 年11 月11 日（土）～ 12 日（日）</em><br>　11月11日 (土) 　スプリント競技部門<br>　11月12日 (日) 　ロング・ディスタンス競技部門</td></tr>
-			<tr><th>開催地</th><td>スプリント競技部門：岐阜県大垣市上石津町 時地区周辺<br>ロング・ディスタンス競技部門：岐阜県不破郡関ケ原町</td></tr>
-			<tr><th>主催</th><td>日本学生オリエンテーリング連盟<br>岐阜県オリエンテーリング協会</td></tr>
-			<tr><th>主管</th><td>2017年度日本学生オリエンテーリング選手権大会<br>　スプリント競技部門実行委員会<br>2017年度日本学生オリエンテーリング選手権大会<br>　ロング・ディスタンス競技部門実行委員会</td></tr>
-			<tr><th>後援</th><td>岐阜県、大垣市、関ケ原町、大垣市教育委員会、関ケ原町教育委員会、(公社)日本オリエンテーリング協会
-				<br>（本大会は、岐阜県スポーツイベント補助金の交付を受け実施します。）</td></tr>
-			<tr><th>協賛</th><td>十六銀行</td></tr>
-			<tr><th>協力</th><td>関ケ原観光協会</td></tr>
+			<tr><th>開催日</th><td><em>2021 年3 月12 日（金）～ 14
+				日（日）</em>
+				<br>　3月12日 (金) 　開会式・モデルイベント
+				<br>　3月13日 (土) 　ミドル・ディスタンス競技部門
+				<br>　3月14日 (日) 　リレー競技部門</td></tr>
+			<tr><th>開催地</th><td>三重県伊賀市 青山高原周辺</td></tr>
+			<tr><th>主催</th><td>日本学生オリエンテーリング連盟<br></td></tr>
+			<tr><th>主管</th><td>2020年度日本学生オリエンテーリング選手権大会<br>
+				ミドル・ディスタンス、リレー競技部門実行委員会</td></tr>
 			</tbody>
 		</table>
 		<h3>大会役員</h3>
-		<p>　※（）内は出身大学と入学年度</p>
+		<p>　※（）内は出身大学と入学年度もしくは所属クラブ</p>
 		<table>
 			<tbody>
-			<tr><th></th><th>スプリント競技部門</th><th>ロング・ディスタンス競技部門</th></tr>
-			<tr><th>実行委員長</th><td colspan="2">糸井川 壮大（京都12）</td></tr>
-			<tr><th>競技責任者</th><td>安中 勇大（京都11）</td><td>松下 睦生（京都11）</td></tr>
-			<tr><th>運営責任者</th><td>川上 雅人（名古屋11）</td><td>前田 悠作（名古屋10）</td></tr>
-			<tr><th>コース設定者</th><td>五百倉 大輔（京都12）</td><td>細川 知希（名古屋10）</td></tr>
-			<tr><th>イベント・アドバイザー</th><td>近藤 康満（名古屋10）</td><td>菅谷 裕志（名古屋08）</td></tr>
+			<tr><th>実行委員長</th><td colspan="2">糸賀 翔大（東京11）</td></tr>
+			<tr><th>競技責任者</th><td>森河 俊成（京都16）</td></tr>
+			<tr><th>運営責任者</th><td>実藤 俊太（京都13）</td></tr>
+			<tr><th>ミドルプランナー </th><td>築地 孝和（神戸13）</td></tr>
+			<tr><th>リレープランナー </th><td>加藤 岬（東京14）</td></tr>
+			<tr><th>イベント・アドバイザー</th><td>木俣 順（朱雀OK）</td></tr>
 			</tbody>
 		</table>
 	</div><!-- /#main -->
@@ -194,16 +192,7 @@ a:hover { text-decoration: underline; }
 	<div id="sub">
 		<div class="bnr">
 			<h3>最新情報 News</h3>
-			<p>過去のお知らせは<em><a href="information.html">こちら</a></em>からご覧ください。</p>
-			<p>2018-02-12<br>　<a href="bulletin.html#12">インカレスプリント・ロング2017 報告書を公開しました。</a></p>
-			<p>2017-12-09<br>　<a href="media.html">インカレアンケート・写真を公開しました。</a></p>
-			<p>2017-11-19<br>　<a href="bulletin.html#11">インカレスプリント・ロング2017 落とし物一覧を公開しました。</a></p>
-			<p>2017-11-13<br>　<a href="bulletin.html#10">成績データを公開しました。</a></p>
-			<p>2017-11-12<br>　<a href="gps.html">「カメラ中継・GPSトラッキング」（ロング）ページを開設しました。</a></p>
-				<li><a href="heisetsu/index.html"><img src="images/heisetsu.jpg" alt=""></a></li>
-				<li><a href="bulletin.html#6"><img src="images/program.jpg" alt=""></a></li>
-				<li><a href="gps.html"><img src="images/gps.jpg" alt=""></a></li>
-				<li><a href="media.html"><img src="images/media.jpg" alt=""></a></li>
+			<p>2020-8-xx<br>　<a href="bulletin.html#12">要綱1を公開しました。</a></p>
 			</ul>
 		</div><!-- /.bnr -->
 	</div><!-- /#sub -->
@@ -219,12 +208,9 @@ a:hover { text-decoration: underline; }
 			<li><a href="news.html">お知らせ</a></li>
 			<li><a href="contact.html">お問い合わせ</li>
 			<li><a href="link.html">リンク集</a></li>
-			<li><a href="gps.html">カメラ中継・GPSトラッキング</a></li>
-			<li><a href="access.html">会場アクセス</a></li>
-			<li><a href="media.html">インカレアンケート・写真</a></li>
 		</ul>
 	</div><!-- /.footmenu -->
-	<div class="copyright">Copyright &#169; 2017年度日本学生オリエンテーリング選手権大会実行委員会 All Rights Reserved.</div><!-- /.copyright -->
+	<div class="copyright">Copyright &#169; 2020年度日本学生オリエンテーリング選手権大会実行委員会 All Rights Reserved.</div><!-- /.copyright -->
 </footer>
 
 <div class="totop"><a href="#"><img src="images/totop.png" alt="ページのトップへ戻る"></a></div><!-- /.totop -->
