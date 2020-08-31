@@ -17,3 +17,4 @@ mv /home/icmr2020/${NEW_FOLDER} /home/icmr2020/public_html
 rm -rf /home/icmr2020/pre_html
 
 echo "finish deploy"
+
