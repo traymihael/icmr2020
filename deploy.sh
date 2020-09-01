@@ -2,6 +2,8 @@
 
 echo "start deploy"
 
+source /home/icmr2020/.bashrc
+
 export NEW_FOLDER=icmr2020
 
 mkdir /home/icmr2020/${NEW_FOLDER}
