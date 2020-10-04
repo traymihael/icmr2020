@@ -50,6 +50,7 @@ nav {
 
 a {
 	color:#000D99;
+	text-decoration:underline;
 }
 
 a:hover {
@@ -331,6 +332,7 @@ footer {
 	padding:0 20px;
 	font-size:12px;
 	text-align:center;
+	color:#000;
 }
 
 .copyright {
@@ -338,6 +340,11 @@ footer {
 	padding:20px 0;
 	font-size:11px;
 	text-align:center;
+	color:#000;
+}
+
+.footmenu ul li a {
+    color:#000;
 }
 
 /*================================================
@@ -405,6 +412,17 @@ footer {
 .info dd {
 	padding-bottom:1em;
 	border-bottom:1px solid #ddd;
+}
+
+.jump {
+    color:#000;
+    pointer-events: none;
+}
+
+.jump:hover {
+	color:#000;
+	text-decoration: none
+	pointer-events: none;
 }
 
 /*================================================
@@ -679,3 +697,17 @@ footer {
 		margin-bottom:10px;
 	}
 }
+
+/* リンクに下線を引きたい */
+div p a {
+    text-decoration: underline
+}
+
+dl dd a {
+    text-decoration: underline
+}
+
+dl dt a {
+    text-decoration: underline
+}
+
