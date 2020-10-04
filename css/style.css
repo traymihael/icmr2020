@@ -554,6 +554,50 @@ footer {
 	width:100%;
 }
 
+.secondNavi {
+	overflow:hidden;
+	position:relative;
+	margin-top:-10px;
+	margin-bottom:10px;
+	height:65px;
+}
+
+.secondNaviCon {
+	position:relative;
+	display:block;
+	box-sizing:border-box;
+	overflow:hidden;
+	padding:10px;
+	text-decoration:none;
+	color:#000;
+	transition:background 0s ease 0s, border 0.5s ease-out 0s;
+	background:#f1f1f1;
+	border:1px solid #f1f1f1;
+	border-radius:4px;
+}
+.secondNaviCon:hover {
+	color:#000;
+	background:#fff9f5 none repeat scroll 0 0;
+	border:1px solid #f19500;
+	transition:background 0s ease 0s, border 0.5s ease-out 0s;
+}
+.secondNaviCon h2 {
+    margin-top:-5px;
+	margin-left:50px;
+	padding:0;
+	font-size:14px;
+	font-weight:bold;
+	color:#f19500;
+	border:none;
+}
+.secondNaviCon:hover h2 {
+	color:#f19500;
+}
+.secondNaviCon p {
+    margin:-5px;
+	margin-left:50px;
+}
+
 /*================================================
  *  タブレット向けデザイン
  ================================================*/
