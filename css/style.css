@@ -49,10 +49,12 @@ nav {
 }
 
 a {
-	color:#000;
+	color:#000D99;
 }
+
 a:hover {
 	color:#e78f00;
+	cursor : pointer;
 }
 
 h1 {
