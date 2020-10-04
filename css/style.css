@@ -33,12 +33,15 @@ nav {
 
 #main {
 	float:right;
-	width:65.625%;
+	width:67.425%;
 }
 
 #sub {
 	float:left;
-	width:31.25%;
+	width:30.25%;
+	background-color:#F5F5F5;
+    padding: 0 0 1em 0;
+    background-clip: content-box;
 }
 
 #subnav {
@@ -276,6 +279,7 @@ nav li a:hover {
 
 .bnr {
 	overflow:hidden;
+	margin: 1em;
 }
 
 .bnr ul {
