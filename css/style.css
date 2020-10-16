@@ -33,12 +33,15 @@ nav {
 
 #main {
 	float:right;
-	width:65.625%;
+	width:67.425%;
 }
 
 #sub {
 	float:left;
-	width:31.25%;
+	width:30.25%;
+	background-color:#F5F5F5;
+    padding: 0 0 1em 0;
+    background-clip: content-box;
 }
 
 #subnav {
@@ -46,10 +49,13 @@ nav {
 }
 
 a {
-	color:#000;
+	color:#000D99;
+	text-decoration:underline;
 }
+
 a:hover {
 	color:#e78f00;
+	cursor : pointer;
 }
 
 h1 {
@@ -276,6 +282,7 @@ nav li a:hover {
 
 .bnr {
 	overflow:hidden;
+	margin: 1em;
 }
 
 .bnr ul {
@@ -325,6 +332,7 @@ footer {
 	padding:0 20px;
 	font-size:12px;
 	text-align:center;
+	color:#000;
 }
 
 .copyright {
@@ -332,6 +340,11 @@ footer {
 	padding:20px 0;
 	font-size:11px;
 	text-align:center;
+	color:#000;
+}
+
+.footmenu ul li a {
+    color:#000;
 }
 
 /*================================================
@@ -399,6 +412,21 @@ footer {
 .info dd {
 	padding-bottom:1em;
 	border-bottom:1px solid #ddd;
+}
+
+.jump {
+    color:#000;
+    pointer-events: none;
+}
+
+.jump:hover {
+	color:#000;
+	text-decoration: none
+	pointer-events: none;
+}
+
+.domain::before {
+   content: '@';
 }
 
 /*================================================
@@ -717,3 +745,17 @@ footer {
 		margin-bottom:10px;
 	}
 }
+
+/* リンクに下線を引きたい */
+div p a {
+    text-decoration: underline
+}
+
+dl dd a {
+    text-decoration: underline
+}
+
+dl dt a {
+    text-decoration: underline
+}
+
