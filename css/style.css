@@ -763,3 +763,8 @@ dl dt a {
     all: initial
 }
 
+.images-size{
+    max-width: 95%;
+    height: auto;
+}
+
