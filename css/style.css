@@ -759,3 +759,7 @@ dl dt a {
     text-decoration: underline
 }
 
+.ignore-css{
+    all: initial
+}
+
