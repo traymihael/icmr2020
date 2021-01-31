@@ -771,3 +771,7 @@ dl dt a {
 strong {
   color: red;
 }
+
+.delete {
+    text-decoration: line-through;
+}
