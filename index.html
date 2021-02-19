@@ -15,31 +15,15 @@
 
 <div id="contents">
 	<div id="main">
-	<div id="countOutput">
-		<script type="text/javascript">
-		function dateCounter() {
- 		 var timer = setInterval(function() {
-			//現在の日時取得
-			var nowDate = new Date();
-			//カウントダウンしたい日を設定
-			var anyDate = new Date("2021/3/12 0:00:00");
-			//日数を計算
-			var daysBetween = Math.ceil((anyDate - nowDate)/(1000*60*60*24));
-			var ms = (anyDate - nowDate);
-			if (ms > 0) {
-			    //HTML上に出力
-			    document.getElementById("countOutput").innerHTML = "インカレ開催まであと" + daysBetween + "日";
-				}else{
-			    document.getElementById("countOutput").innerHTML = "インカレ開催まであと0日";
-			}
-		    }, 1000);
-		}
-		dateCounter();
-		</script>
-
-	</div>
 		<h2>重要なお知らせ</h2>
 		<dl class="info">
+			<dt><span>2021-02-19</span></dt>
+			<dd>
+				<h6>重要なお知らせ（2/19更新）</h6>
+				2020年3月13日に開催を予定していました<strong>本大会及びそれに伴う併設大会の開催を中止</strong>することになりました。
+				詳細は<a href="http://www.orienteering.com/~uofj/?blogid=1&catid=8&itemid=1628">日本学連のお知らせ</a>をご覧ください。
+			</dd>
+
 			<dt><span>2021-02-08</span></dt>
 			<dd>
 				<a href="bulletin.html#trailO_1">トレイルOの要項を公開しました。</a>
@@ -103,15 +87,21 @@
 		<p>　大会の詳細は<a href="bulletin.html">最新の要項</a>をご覧ください。</p>
 		<table>
 			<p>
-			<tr><th>開会式</th><td>2021 年 3 月 6 日（土）（Web）
+			<tr><th>開会式</th><td>
+				<strong>中止</strong>
+				<div class="delete">2021 年 3 月 6 日（土）（Web）</div>
 			<tr><th>開催日</th><td>
-				【単日開催】<br>
-				<div style="padding-left:2em">
-					2021 年 3 月 13 日（土）
-					<br>　3月13日 (土) 　ミドル・ディスタンス競技部門、団体戦部門
+				<strong>中止</strong>
+				<div class="delete">
+					【単日開催】<br>
+					<div style="padding-left:2em">
+						2021 年 3 月 13 日（土）
+						<br>　3月13日 (土) 　ミドル・ディスタンス競技部門、団体戦部門
+					</div>
 				</div>
 
-				<div class="delete">【3日間開催】<br>
+				<div class="delete">
+					【3日間開催】<br>
 					<div style="padding-left:2em">
 						2021 年 3 月 12 日（金）～ 14 日（日）
 						<br>　3月12日 (金) 　モデルイベント
