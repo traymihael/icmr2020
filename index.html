@@ -15,29 +15,6 @@
 
 <div id="contents">
 	<div id="main">
-	<div id="countOutput">
-		<script type="text/javascript">
-		function dateCounter() {
- 		 var timer = setInterval(function() {
-			//現在の日時取得
-			var nowDate = new Date();
-			//カウントダウンしたい日を設定
-			var anyDate = new Date("2021/3/12 0:00:00");
-			//日数を計算
-			var daysBetween = Math.ceil((anyDate - nowDate)/(1000*60*60*24));
-			var ms = (anyDate - nowDate);
-			if (ms > 0) {
-			    //HTML上に出力
-			    document.getElementById("countOutput").innerHTML = "インカレ開催まであと" + daysBetween + "日";
-				}else{
-			    document.getElementById("countOutput").innerHTML = "インカレ開催まであと0日";
-			}
-		    }, 1000);
-		}
-		dateCounter();
-		</script>
-
-	</div>
 		<h2>重要なお知らせ</h2>
 		<dl class="info">
 			<dt><span>2021-02-19</span></dt>
